@@ -19,6 +19,3 @@ while show_instructions.lower() != "xxx":
         print("please enter yes or no")
 
     # If the answer is invalid, print an error.
-
-
-

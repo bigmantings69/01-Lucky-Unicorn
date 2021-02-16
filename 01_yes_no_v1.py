@@ -19,6 +19,3 @@ else:
     print("please answer yes or no")
 
 # If the answer is invalid, print an error.
-
-
-
