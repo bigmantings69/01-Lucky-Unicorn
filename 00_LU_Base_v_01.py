@@ -1,5 +1,5 @@
 import random
-# Function go here...
+# Function go here..
 
 
 def yes_no(question):
@@ -64,6 +64,8 @@ how_much = num_check("How much would you"
                      " like to play with? ", 0, 10)
 
 print("you will be spending ${}".format(how_much))
+
+# set balance for testing purposes
 balance = how_much
 
 rounds_played = 0
@@ -111,6 +113,8 @@ while play_again == "":
     else:
         play_again = input("Press Enter to play again "
                            "or 'xxx' to quit")
+
+    print("You got a {}.  Balance: ${:.2f}".format(chosen, balance))
 
 print()
 print("Final balance", balance)

@@ -48,5 +48,7 @@ while play_again == "":
         play_again = input("Press Enter to play again "
                            "or 'xxx' to quit")
 
+    print("You got a {}.  Balance: ${:.2f}".format(chosen, balance))
+
 print()
 print("Final balance", balance)
