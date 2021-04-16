@@ -16,10 +16,19 @@ def num_check(question, low, high):
                 print(error)
 
         except ValueError:
+<<<<<<< HEAD
                 print(error)
 
 # Main routine goes here
 how_much = num_check("How much would you"
+=======
+            print(error)
+
+# Main routine goes here
+
+
+how_much = num_check("How much would you"      
+>>>>>>> ff1f159f50e30777e9ea857ef772ede39ac76bb7
                      " like to play with? ", 0, 10)
 
 print("you will be spending ${}".format(how_much))
