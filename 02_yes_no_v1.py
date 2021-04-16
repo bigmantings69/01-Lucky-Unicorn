@@ -1,4 +1,3 @@
-
 # Function go here...
 def yes_no(question):
     valid = False
